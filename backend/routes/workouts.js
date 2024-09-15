@@ -8,9 +8,9 @@ const {
 } = require('../controllers/workoutController')
 
 const router = express.Router()
-
+//Routes that refrence all of the controller functions
 // GET all workouts
-router.get('/', getWorkouts)
+router.get('/', getWorkouts)//refrencing the workouts
 
 // GET a single workout
 router.get('/:id', getWorkout)
